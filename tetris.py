@@ -68,6 +68,7 @@ temp = 0
 rotated = 0
 paused = False
 downCount = 0
+testerVar= True
 
 # Set up the fonts.
 giantFont = pygame.font.Font('ARCADECLASSIC.ttf', 120)
