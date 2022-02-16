@@ -70,10 +70,10 @@ paused = False
 downCount = 0
 
 # Set up the fonts.
-giantFont = pygame.font.Font('ARCADECLASSIC.ttf', 120)
-bigFont = pygame.font.Font('ARCADECLASSIC.ttf', 60)
-smallFont = pygame.font.Font('ARCADECLASSIC.ttf', 52)
-smolFont = pygame.font.Font('ARCADECLASSIC.ttf', 42)
+giantFont = pygame.font.Font('./assets/fonts/ARCADECLASSIC.ttf', 120)
+bigFont = pygame.font.Font('./assets/fonts/ARCADECLASSIC.ttf', 60)
+smallFont = pygame.font.Font('./assets/fonts/ARCADECLASSIC.ttf', 52)
+smolFont = pygame.font.Font('./assets/fonts/ARCADECLASSIC.ttf', 42)
 
 # Set up the text
 # HOLD
@@ -140,19 +140,19 @@ endRect.centery = 402
 windowSurface.fill(BLACK)
 
 # Set up the music
-fallSound = pygame.mixer.Sound('SFX_PieceFall.ogg')
-slamSound = pygame.mixer.Sound('SFX_PieceHardDrop.wav')
-holdSound = pygame.mixer.Sound('SFX_PieceHold.ogg')
-moveSound = pygame.mixer.Sound('SFX_PieceMoveLR.ogg')
-rotateFailSound = pygame.mixer.Sound('SFX_PieceRotateFail.ogg')
-rotateSound = pygame.mixer.Sound('SFX_PieceRotateLR.ogg')
-softDropSound = pygame.mixer.Sound('SFX_PieceSoftDrop.ogg')
-touchDownSound = pygame.mixer.Sound('SFX_PieceTouchDown.ogg')
-singleClearSound = pygame.mixer.Sound('SFX_SpecialLineClearSingle.ogg')
-doubleClearSound = pygame.mixer.Sound('SFX_SpecialLineClearDouble.ogg')
-tripleClearSound = pygame.mixer.Sound('SFX_SpecialLineClearTriple.ogg')
-tetrisSound = pygame.mixer.Sound('SFX_SpecialTetris.ogg')
-pygame.mixer.music.load('Tetris_Theme.mid')
+fallSound = pygame.mixer.Sound('./assets/sounds/SFX_PieceFall.ogg')
+slamSound = pygame.mixer.Sound('./assets/sounds/SFX_PieceHardDrop.wav')
+holdSound = pygame.mixer.Sound('./assets/sounds/SFX_PieceHold.ogg')
+moveSound = pygame.mixer.Sound('./assets/sounds/SFX_PieceMoveLR.ogg')
+rotateFailSound = pygame.mixer.Sound('./assets/sounds/SFX_PieceRotateFail.ogg')
+rotateSound = pygame.mixer.Sound('./assets/sounds/SFX_PieceRotateLR.ogg')
+softDropSound = pygame.mixer.Sound('./assets/sounds/SFX_PieceSoftDrop.ogg')
+touchDownSound = pygame.mixer.Sound('./assets/sounds/SFX_PieceTouchDown.ogg')
+singleClearSound = pygame.mixer.Sound('./assets/sounds/SFX_SpecialLineClearSingle.ogg')
+doubleClearSound = pygame.mixer.Sound('./assets/sounds/SFX_SpecialLineClearDouble.ogg')
+tripleClearSound = pygame.mixer.Sound('./assets/sounds/SFX_SpecialLineClearTriple.ogg')
+tetrisSound = pygame.mixer.Sound('./assets/sounds/SFX_SpecialTetris.ogg')
+pygame.mixer.music.load('./assets/sounds/Tetris_Theme.mid')
 musicPlaying = False
             
 for i in range(4):
