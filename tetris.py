@@ -635,19 +635,19 @@ while gameover == False:
         clear = 0
     # Plays the corrent sound for the amount of clears
     if clearCount == 1:
-        score += 40 * level
+        score += 40 * (level + 1)
         if musicPlaying:
             singleClearSound.play()
     if clearCount == 2:
-        score += 100 * level	
+        score += 100 * (level + 1)	
         if musicPlaying:
             doubleClearSound.play()
     if clearCount == 3:
-        score += 300 * level
+        score += 300 * (level + 1)
         if musicPlaying:
             tripleClearSound.play()
     if clearCount == 4:
-        score += 1200 * level
+        score += 1200 * (level + 1)
         if musicPlaying:
             tetrisSound.play()
     totalLineClears += clearCount
