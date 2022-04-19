@@ -13,8 +13,9 @@ Game increases in speed logarithmically up to the human limit
 Lots of work when into this over the course of about a month, with the goal to create an interesting cross between the orignal NES version and modern tetris titles.
 
 ## Installation
-1. Download and Install [python](https://www.python.org/downloads/) if you don't already have it.
-2. Type `pip install pygame` into a command prompt.
-3. Launch the application from `tetris.py` file.
+1. Download or clone the repo and unzip the folder.
+2. Download and Install [python](https://www.python.org/downloads/) if you don't already have it.
+3. Type `pip install pygame` into a command prompt.
+4. Launch the application from `tetris.py` file.
 
 ### Made by Dustin Huntsberger
